@@ -7,13 +7,10 @@
 <p> react-router-dom</p>
 <p> axios</p>
 <p> Bootstrap</p>
-<p> Bir en sevdigim videonun linki sizlerle 💗</p>
+<p> Birde en sevdigim videonun linki sizlerle 💗</p>
 
 
-<p> Hiç pişman değilim senin olmaktan ( Senin olmaktan )
-Hiç pişman değilim beni kırmandan ( Beni kırmandan )
-Bir an bıkmadım savaşmaktan ( Bir adım daha atmaktan )
-Her an gideceksin sanmaktan ( Kaçamam yalnızlıktan )</p>
+
 
 
 
