@@ -1,3 +1,24 @@
+
+<h1>Youtube Clone</h1>
+<p>React ile birlikte youtube clone projesinde birçok kütüphane kullanılmıştır.</p>
+<p>Kullanılan kütüphaneler </p>
+<p> icon</p>
+<p> millify</p>
+<p> react-router-dom</p>
+<p> axios</p>
+<p> Bootstrap</p>
+<p> Bir en sevdigim videonun linki sizlerle 💗</p>
+
+
+<p> Hiç pişman değilim senin olmaktan ( Senin olmaktan )
+Hiç pişman değilim beni kırmandan ( Beni kırmandan )
+Bir an bıkmadım savaşmaktan ( Bir adım daha atmaktan )
+Her an gideceksin sanmaktan ( Kaçamam yalnızlıktan )</p>
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

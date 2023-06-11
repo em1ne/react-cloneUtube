@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Feed from "./components/Feed"
+import VideoDetail from "./components/VideoDetail"
+import { ContextProvider } from "./context/contextApi";
+import "./style.css"
+import SearchResult from "./components/SearchResult";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ContextProvider>
+    <BrowserRouter>
+    <Header/>
+    <Routes>
+      {/* feed anasayfa olacak */}
+    <Route path="/" element={<Feed/>}/>
+    {/* video detay sayfası dinamik bir sayfa olacak */}
+    <Route path="/watch/:videoId" element={<VideoDetail/>}/>
+    <Route path="search-result/:query" element={<SearchResult/>}/>
+    </Routes>
+    </BrowserRouter>
+    </ContextProvider>
   );
 }
 
