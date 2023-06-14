@@ -7,7 +7,9 @@
 <p> react-router-dom</p>
 <p> axios</p>
 <p> Bootstrap</p>
-<p> Birde en sevdigim videonun linki sizlerle 💗</p>
+
+<img src="https://github.com/em1ne/react-cloneUtube/assets/121401426/a5583ff3-5773-4991-b3ac-f3f5a87c1002.gif" >
+
 
 
 
